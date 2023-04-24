@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+</head>
+<body>
+	<div class="container">
+		<div class="task__wrapper">
+			<div class="task__header">
+				<h2 class="task__title">Задание 1</h1>
+				<p class="task__text">Метод шифрование путём замены с использованием алгоритма моноалфавитной замены.</p>
+			</div>
+			<form class="form" id="form-task1" action="">
+				<label class="label--text">
+					<p class="label__title">T0 =</p>
+					<input class="input--text" id="T0" type="text" value="МЕТОД_ШИФРОВАНИЯ">
+				</label>
+
+				<label class="label--text">
+					<p class="label__title">A0 =</p>
+					<input class="input--text" id="A0" type="text" value="АБВГДЕЖЗИКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ_" readonly>
+				</label>
+
+				<label class="label--text">
+					<p class="label__title">A1 =</p>
+					<input class="input--text" id="A1" type="text" value="ОРЩЬЯТЭ_ЖМЧХАВДЫФКСЕЗПИЦГНЛЪШБУЮ">
+				</label>
+
+				<div class="form__num-values">
+					<label class="label--num">
+						<p class="label__title">k1 =</p>
+						<input class="input--num" id="k1" type="number" value="3">
+					</label>
+					<label class="label--num">
+						<p class="label__title">k2 =</p>
+						<input class="input--num" id="k2" type="number" value="15">
+					</label>
+					<label class="label--num">
+						<p class="label__title">b =</p>
+						<input class="input--num" id="b" type="number"  value="4">
+					</label>
+				</div>
+
+				<div class="form__footer">
+					<button class="btn" id="btn-task1" type="button">Зашифровать</button>
+				</div>
+
+				<div class="output" id="output1"></div>
+			</form>
+		</div>
+	</div>
+
+
+	<div class="container">
+		<div class="task__wrapper">
+			<div class="task__header">
+				<h2 class="task__title">Задание 2</h1>
+				<p class="task__text">Метод шифрование путём замены с помощью матрицы Вижинера.</p>
+			</div>
+
+			<form class="form" id="form-task2" action="">
+				<label class="label--text">
+					<p class="label__title">T0=</p>
+					<input class="input--text" id="text-task2" type="text" value="БЕЗОБЛАЧНОЕ_НЕБО">
+				</label>
+
+				<label class="label--text">
+					<p class="label__title">K =</p>
+					<input class="input--text" id="key-word" type="text" value="ЗОНД">
+				</label>
+
+				<div class="form__footer">
+					<button class="btn" id="btn-task2" type="button">Зашифровать</button>
+				</div>
+
+				<div class="output" id="output2"></div>
+			</form>
+		</div>
+	</div>
+
+	<script src="taskMy1.js"></script>
+	<script src="taskMy2.js"></script>
+
+</body>
+</html>

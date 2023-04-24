@@ -1,0 +1,139 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-color: #fff;
+	color: #333;
+	font-size: 1.6rem;
+	line-height: 1.4;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+b {
+	font-weight: 700;
+}
+
+
+
+/* Container */
+.container {
+	width: 100%;
+	max-width: 1400px;
+	margin: 50px auto;
+	padding: 50px;
+
+	background-color: #eee;
+	border-radius: 20px;
+}
+
+
+/* Task */
+.task__header {
+	margin-bottom: 2.5rem;
+}
+
+.task__title {
+	margin-bottom: 1rem;
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+
+/* Form */
+.form__num-values {
+	display: flex;
+	justify-content: space-between;
+}
+
+.form__footer {
+	margin: 2rem 0;
+	text-align: center;
+}
+
+
+/* Label */
+label {
+	display: flex;
+	margin-bottom: 1rem;
+}
+
+.label--text,
+.label--num {
+	display: flex;
+	gap: 1rem;
+}
+
+.label__title {
+	font-weight: 700;
+}
+
+/* Input */
+.input--text,
+.input--num {
+	flex-grow: 1;
+}
+
+.input--num {
+	max-width: 100px;
+}
+
+
+/* Button */
+.btn {
+	padding: 1rem 2rem;
+	text-align: center;
+
+	background-color: #333;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 5px 5px 10px rgba(50, 50, 50, .5);
+
+	color: #fff;
+}
+
+
+/* Output */
+
+.output {
+	margin-top: 4rem;
+}
+
+.output__title {
+	margin-bottom: 1rem;
+	font-size: 2rem;
+	font-weight: 700;
+	text-align: center;
+}
+
+.output__result {
+	margin-top: 2rem;
+}
+
+table {
+	width: 100%;
+}
+
+tr {
+	width: 100%;
+}
+
+td {
+	min-width: 20px;
+	text-align: center;
+	border: 1px solid #000;
+	white-space: nowrap;
+}
+
+.td__title {
+	font-weight: 700;
+}
+
+.table__wrapper {
+	overflow-x: auto;
+}
